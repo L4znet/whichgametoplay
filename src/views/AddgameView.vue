@@ -70,8 +70,8 @@ const checks = () => {
     errorMessages.value.push('Vous ne pouvez pas laisser ce champ vide');
   }
 
-  if (gamesArray.length < 3) {
-    errorMessages.value.push('Vous devez saisir au moins 3 jeux');
+  if (gamesArray.length < 4) {
+    errorMessages.value.push('Pour que le hasard puisse opérer, vous devez ajouter au moins 4 jeux');
   }
 
   const uniqueGames = new Set(gamesArray);
