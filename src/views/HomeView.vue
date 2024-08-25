@@ -1,7 +1,7 @@
 <template>
   <main class="w-full text-white flex justify-center gap-y-20 flex-col">
     <header class="w-full text-white flex justify-center flex-col items-center h-56 gap-y-5">
-      <h1 class="text-6xl font-bold">A la recherche d'un jeu à jouer ?</h1>
+      <h1 class="text-6xl font-bold">À la recherche d'un jeu à jouer ?</h1>
       <h2 class="text-3xl">Laissons le hasard choisir pour toi !</h2>
     </header>
     <section v-if="cards.length > 0" class="w-full text-white flex justify-center gap-x-20">
