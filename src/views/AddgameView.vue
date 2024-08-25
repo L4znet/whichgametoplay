@@ -33,6 +33,7 @@
 
 <script setup lang="ts">
 import { computed, ref } from 'vue';
+import router from "@/router";
 
 // State variables
 const gamesInput = ref<string>('');
@@ -89,7 +90,7 @@ const addGames = () => {
     }));
     savedGames.value = gamesArray;
     localStorage.setItem('games', JSON.stringify(savedGames.value));
-    loadGames();
+    router.push('/');
   }
 };
 
