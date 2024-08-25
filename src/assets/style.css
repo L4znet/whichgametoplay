@@ -1,0 +1,12 @@
+@import url(https://fonts.bunny.net/css?family=lato:100,300,400,700,900);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.debug{
+    border:2px solid lime;
+}
+
+.debug-2{
+    border:2px solid red;
+}
